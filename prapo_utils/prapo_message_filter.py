@@ -22,15 +22,15 @@ def filterMessages(messages, filterCode):
     	1) contain the user-provided filterCode
     	AND
     	2.1) contain 'Prapo' in some approximate form
-	OR
-	2.2) contain <Média vynechány> since that includes Prapo-counting stickers and photos
+	    OR
+	    2.2) contain <Média vynechány> since that includes Prapo-counting stickers and photos
     """
     filterCode = filterCode.lower()
 
     filtered = []
     for message in messages:
         msg_lower = message.lower()
-        if filterCode in msg_lower and (is_similar_to(msg_lower, "prapo") or is_similar_to(msg_lower, "<Média vynechány>")):
+        if filterCode in msg_lower and (is_similar_to(msg_lower, "prapo") or is_similar_to(msg_lower, "<Média vynechány>") or is_similar_to(msg_lower, "(file attached)")):
             filtered.append(message)
 
     return filtered
