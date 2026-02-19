@@ -21,8 +21,9 @@ replacements = {
     "Pæẞtę" : "Eliška Hrubošová",
     "+420 732 580 175" : "Kačka Buriánková",
     "Kačka Buriánková" : "Kačka Buriánková",
-    "David DDI Lukášek" : "David DDI Lukášek",
     "+420 777 114 446" : "David DDI Lukášek",
+    "E3" : "Eliška Ledinská",
+    "+420 724 199 833" : "Eliška Ledinská",
 
     "+420 725 279 560" : "a",
     "+420 737 150 617" : "Anna K",
@@ -39,6 +40,7 @@ replacements = {
     "+420 721 813 045" : "Vojta Kopecký",
     "+420 606 952 335" : "Dominik",
     "+420 732 180 588" : "Lada✨",
+    "ld:" : "Lada✨:",
     "+420 774 968 544" : "Lukáš Hofman",
     "+420 608 110 939" : "Nari",
 
@@ -70,7 +72,7 @@ replacements = {
     "+420 605 818 985" : "Lucie Šárová"
 }
 
-file_path = "prapo.txt"
+file_path = "prapotest.txt"
 
 messages = PrapoReader.read_file_lines(file_path)
 new_messages = []
@@ -80,6 +82,6 @@ for message in messages:
         message = message.replace(old, new)
     new_messages.append(message)
 
-with open("prapotest.txt", "w", encoding="utf-8") as f:
+with open("prapotest2.txt", "w", encoding="utf-8") as f:
     for message in new_messages:
         f.write(message + "\n")
