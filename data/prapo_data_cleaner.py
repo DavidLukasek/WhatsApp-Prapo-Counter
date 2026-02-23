@@ -72,7 +72,7 @@ replacements = {
     "+420 605 818 985" : "Lucie Šárová"
 }
 
-file_path = "prapotest.txt"
+file_path = "prapo.txt"
 
 messages = PrapoReader.read_file_lines(file_path)
 new_messages = []
@@ -82,6 +82,6 @@ for message in messages:
         message = message.replace(old, new)
     new_messages.append(message)
 
-with open("prapotest2.txt", "w", encoding="utf-8") as f:
+with open("prapotest.txt", "w", encoding="utf-8") as f:
     for message in new_messages:
         f.write(message + "\n")
