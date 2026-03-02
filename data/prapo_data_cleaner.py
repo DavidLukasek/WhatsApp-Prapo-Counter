@@ -69,7 +69,8 @@ replacements = {
     "+420 702 183 872" : "[any]",
     "+420 721 434 002" : "dave",
     "+420 776 459 991" : "Kája Novák",
-    "+420 605 818 985" : "Lucie Šárová"
+    "+420 605 818 985" : "Lucie Šárová",
+    "+420 734 552 065" : "Kláruš"
 }
 
 file_path = "prapo.txt"
@@ -82,6 +83,6 @@ for message in messages:
         message = message.replace(old, new)
     new_messages.append(message)
 
-with open("prapotest.txt", "w", encoding="utf-8") as f:
+with open("prapo2.txt", "w", encoding="utf-8") as f:
     for message in new_messages:
         f.write(message + "\n")
