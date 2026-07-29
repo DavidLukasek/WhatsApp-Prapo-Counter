@@ -20,7 +20,7 @@ replacements = {
     "+420 601 365 884" : "Eliška Hrubošová",
     "Pæẞtę" : "Eliška Hrubošová",
     "+420 732 580 175" : "Kačka Buriánková",
-    "Kačka Buriánková" : "Kačka Buriánková",
+    "1B Kačka Buriánková" : "Kačka Buriánková",
     "+420 777 114 446" : "David DDI Lukášek",
     "E3" : "Eliška Ledinská",
     "+420 724 199 833" : "Eliška Ledinská",
@@ -75,7 +75,10 @@ replacements = {
     "+420 604 340 698" : "Adam Prokop",
     "+420 778 594 186" : "Dominik",
     "+48 604 717 212" : "Łukasz",
-    "+420 608 566 645" : "Alex"
+    "+420 608 566 645" : "Alex",
+    "+420 734 394 145" : "Kebs",
+    "+420 603 934 370" : "Marie Witosz",
+    "+420 737 842 268" : "Milan"
 }
 
 file_path = "prapo.txt"
