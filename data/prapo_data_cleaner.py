@@ -78,7 +78,14 @@ replacements = {
     "+420 608 566 645" : "Alex",
     "+420 734 394 145" : "Kebs",
     "+420 603 934 370" : "Marie Witosz",
-    "+420 737 842 268" : "Milan"
+    "+420 737 842 268" : "Milan",
+    "+421 944 918 271" : "Alena Benkovičová",
+    "+420 605 888 721" : "Filip Peter",
+    "+420 737 381 333" : "Honza D",
+    "+420 722 621 999" : "Jan Staněk",
+    "+420 773 025 464" : "Klára Egemová",
+    "+420 777 036 480" : "Klára Podušková",
+    "+420 774 889 045" : "Miki"
 }
 
 file_path = "prapo.txt"
